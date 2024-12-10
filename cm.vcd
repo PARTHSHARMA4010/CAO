@@ -1,0 +1,56 @@
+$date
+	Mon Nov 18 17:07:58 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module cm_tb $end
+$var wire 3 ! R_EXTRA [2:0] $end
+$var reg 3 " R0 [2:0] $end
+$var reg 3 # R1 [2:0] $end
+$var reg 3 $ R2 [2:0] $end
+$var reg 2 % opcode [1:0] $end
+$scope module uut $end
+$var wire 3 & R0 [2:0] $end
+$var wire 3 ' R1 [2:0] $end
+$var wire 3 ( R2 [2:0] $end
+$var wire 2 ) opcode [1:0] $end
+$var reg 3 * R_EXTRA [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b110 *
+b0 )
+b10 (
+b100 '
+b1 &
+b0 %
+b10 $
+b100 #
+b1 "
+b110 !
+$end
+#3
+b10 !
+b10 *
+b1 %
+b1 )
+#6
+b0 !
+b0 *
+b10 %
+b10 )
+#9
+b101 !
+b101 *
+b11 %
+b11 )
+#12

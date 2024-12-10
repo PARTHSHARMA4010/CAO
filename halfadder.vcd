@@ -1,0 +1,43 @@
+$date
+	Mon Sep 09 18:57:37 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module halfadder_test $end
+$var wire 1 ! s $end
+$var wire 1 " c $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$scope module uut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 " c $end
+$var wire 1 ! s $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#14
+1!
+1$
+#28
+0$
+1#
+#42
+0!
+1"
+1$
+#56

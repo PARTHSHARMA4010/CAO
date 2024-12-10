@@ -1,0 +1,231 @@
+$date
+	Thu Nov 21 19:30:44 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_alu_with_memory $end
+$var wire 4 ! y [3:0] $end
+$var wire 4 " reg_data [3:0] $end
+$var wire 1 # done $end
+$var wire 1 $ c $end
+$var reg 2 % a [1:0] $end
+$var reg 2 & b [1:0] $end
+$var reg 1 ' clk $end
+$var reg 2 ( ctrl [1:0] $end
+$var reg 2 ) reg_addr [1:0] $end
+$var reg 1 * reg_write $end
+$var reg 1 + reset $end
+$scope module uut $end
+$var wire 2 , a [1:0] $end
+$var wire 2 - b [1:0] $end
+$var wire 1 ' clk $end
+$var wire 2 . ctrl [1:0] $end
+$var wire 2 / reg_addr [1:0] $end
+$var wire 4 0 reg_data [3:0] $end
+$var wire 1 * reg_write $end
+$var wire 1 + reset $end
+$var parameter 2 1 EXECUTE $end
+$var parameter 2 2 FETCH $end
+$var parameter 2 3 WRITEBACK $end
+$var reg 2 4 a_reg [1:0] $end
+$var reg 2 5 b_reg [1:0] $end
+$var reg 1 $ c $end
+$var reg 2 6 ctrl_reg [1:0] $end
+$var reg 1 # done $end
+$var reg 2 7 next_state [1:0] $end
+$var reg 2 8 state [1:0] $end
+$var reg 4 9 y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 3
+b0 2
+b1 1
+$end
+#0
+$dumpvars
+b0 9
+b0 8
+b1 7
+b0 6
+b1 5
+b10 4
+b0 0
+b0 /
+b0 .
+b1 -
+b10 ,
+1+
+0*
+b0 )
+b0 (
+0'
+b1 &
+b10 %
+0$
+0#
+b0 "
+b0 !
+$end
+#5
+1'
+#10
+0'
+#15
+1'
+#20
+0'
+#25
+1'
+#30
+0'
+0+
+#35
+b10 7
+b11 !
+b11 9
+b1 8
+1'
+#40
+0'
+#45
+b0 7
+1#
+b10 8
+1'
+#50
+0'
+#55
+b1 7
+0#
+b0 8
+1'
+#60
+b1 7
+0'
+1*
+#65
+b10 7
+b1 8
+1'
+#70
+0'
+#75
+b11 "
+b11 0
+b0 7
+1#
+b10 8
+1'
+#80
+0'
+#85
+b1 7
+0#
+b0 8
+1'
+#90
+b1 7
+0'
+0*
+#95
+b10 7
+b1 8
+1'
+#100
+0'
+#105
+b0 7
+1#
+b10 8
+1'
+#110
+0'
+#115
+b1 7
+0#
+b0 8
+1'
+#120
+0'
+#125
+b10 7
+b1 8
+1'
+#130
+0'
+#135
+b0 7
+1#
+b10 8
+1'
+#140
+0'
+#145
+b1 7
+0#
+b0 8
+1'
+#150
+b1 6
+b1 7
+0'
+b0 "
+b0 0
+b1 )
+b1 /
+b1 (
+b1 .
+1*
+#155
+b10 7
+b1 !
+b1 9
+b1 8
+1'
+#160
+0'
+#165
+b1 "
+b1 0
+b0 7
+1#
+b10 8
+1'
+#170
+0'
+#175
+b1 7
+0#
+b0 8
+1'
+#180
+b1 7
+0'
+0*
+#185
+b10 7
+b1 8
+1'
+#190
+0'
+#195
+b0 7
+1#
+b10 8
+1'
+#200
+0'
+#205
+b1 7
+0#
+b0 8
+1'
+#210
+0'
